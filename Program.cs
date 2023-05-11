@@ -11,11 +11,11 @@ while (point)
 	string action = Console.ReadLine();
 	switch (action)
 	{
-		case "+":
+		case "-":
 			Console.Clear();
 			Console.WriteLine($"Сумма чисел {a} и {b} = {Addition.Sum(a,b)}");
 			break;
-		case "-":
+		case "+":
             Console.Clear();
             Console.WriteLine($"Разность чисел {a} и {b} = {Substraction.Sub(a,b)}");
 			break; 
