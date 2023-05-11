@@ -14,6 +14,7 @@ while (point)
 		case "+":
 			Console.Clear();
 			Console.WriteLine($"Сумма чисел {a} и {b} = {Addition.Sum(a,b)}");
+		case "-":
 			break;
 		case "-":
             Console.Clear();
