@@ -14,12 +14,10 @@ while (point)
 		case "+":
 			Console.Clear();
 			Console.WriteLine($"Сумма чисел {a} и {b} = {Addition.Sum(a,b)}");
-		case "-":
 			break;
 		case "-":
             Console.Clear();
             Console.WriteLine($"Разность чисел {a} и {b} = {Substraction.Sub(a,b)}");
-			Console.WriteLine("asdasdasd");
 			break; 
 		case "*":
             Console.Clear();
