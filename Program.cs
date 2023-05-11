@@ -18,6 +18,7 @@ while (point)
 		case "-":
             Console.Clear();
             Console.WriteLine($"Разность чисел {a} и {b} = {Substraction.Sub(a,b)}");
+			Console.WriteLine("asdasdasd");
 			break; 
 		case "*":
             Console.Clear();
