@@ -27,10 +27,10 @@ while (point)
             Console.Clear();
             Console.WriteLine($"Частное числа {a} и {b} = {Division.Div(a,b)}");
 			break;
-		case "%":
-            Console.Clear();
-            Console.WriteLine($"Процент {b} от числа {a} = {Percent.PercentOfNum(a,Convert.ToInt32(b))}");
-			break;
+		//case "%":
+  //          Console.Clear();
+  //          Console.WriteLine($"Процент {b} от числа {a} = {Percent.PercentOfNum(a,Convert.ToInt32(b))}");
+		//	break;
 	}
     Console.WriteLine("Продолжить? Y/N");
 	string action2 = Console.ReadLine();
